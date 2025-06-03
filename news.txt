@@ -1,4 +1,4 @@
-## 🔄 Version 1.2 – Erweiterung: Netzwerk & Updates
+## 🔄 Version 1.1 – Erweiterung: Netzwerk & Updates
 
 - 🧭 Neuer Menüpunkt: Aktive Verbindungen anzeigen (`netstat`)
 - 📡 Neuer Live-Modus: Laufende IP-Verbindungen überwachen
