@@ -1,1 +1,11 @@
+## 🔄 Version 1.2 – Erweiterung: Netzwerk & Updates
+
+- 🧭 Neuer Menüpunkt: Aktive Verbindungen anzeigen (`netstat`)
+- 📡 Neuer Live-Modus: Laufende IP-Verbindungen überwachen
+- 🕵️ Hostname-Auflösung + VPN-/Proxy-Erkennung (via `hosting`-Flag)
+- 🌐 Filter für externe IPs (nur öffentliche IPv4)
+- 📰 GitHub-basierter Auto-Updater integriert
+  - Holt automatisch neue Versionen aus dem Repository
+  - Zeigt `news.txt` bei jedem Update im Feed an
+- Kleinere Verbesserungen im Layout, Logging & Handling
 
