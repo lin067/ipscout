@@ -1,29 +1,64 @@
-# IP-Scout 🕵️ – Ein einfaches IP-Analyse-Tool für Windows (Batch)
+# 🕵️ IP-Scout – Das vielseitige IP-Analysetool für Windows (Batch)
 
-`IP-Scout.bat` ist ein vollständig lokal laufendes Batch-Tool zur schnellen Analyse von IP-Adressen, Verbindungsinformationen und laufenden Netzwerkverbindungen.
-
-## 🔧 Funktionen
-
-- 🛰️ IP-Lookup manuell oder automatisch
-- 🌍 Standortabfrage über ip-api.com
-- 🕵️ VPN-/Proxy-Erkennung via Hosting-Flag
-- 📍 Google Maps Standort-Link (automatisch geöffnet)
-- 📜 Logging der Lookups in `lookup_log.txt`
-- 🌐 Live-Netzwerküberwachung mit `netstat`
-- 🔎 Erweiterter Hostname-Scanner mit IP-Filter & Reverse-DNS
-
-## 🚀 Start
-
-1. `IP-Scout.bat` ausführen
-2. Menü auswählen (1–5)
-3. Ergebnisse direkt sehen, speichern oder automatisch öffnen
-
-## ⚠️ Rechtlicher Hinweis
-
-> Dieses Tool dient ausschließlich zu Test-, Analyse- und Lernzwecken.  
-> Jegliche Verwendung zu illegalen, sicherheitsrelevanten oder bösartigen Zwecken (z. B. IP-Tracking ohne Zustimmung, Stalking, Netzwerkangriffe o. ä.) ist ausdrücklich untersagt.  
-> Der Entwickler übernimmt keine Haftung für missbräuchliche Nutzung.
+`IP-Scout.bat` ist ein vollständig lokal laufendes Batch-Toolkit zur schnellen Analyse von IP-Adressen, Netzwerkverbindungen und Geodaten – mit Update-Funktion und integriertem News-Feed.
 
 ---
 
-**Autor:** linost10
+## 🚀 Funktionen
+
+✅ **IP-Abfrage & Geo-Analyse**
+- Manuelle IP-Eingabe oder automatische Erkennung der eigenen IP
+- Standortdaten über `ip-api.com`
+- Anzeige von Land, Region, Stadt, PLZ, ISP
+- Google Maps-Link zur Position
+- VPN-/Proxy-Erkennung über Hosting-Flag
+
+🛠️ **Netzwerktools**
+- Live-Anzeige aktiver Verbindungen (`netstat`)
+- Eingehende/verbindende IPs als Livemonitor
+- Erweiterter IP-Scanner mit:
+  - Hostname-Auflösung (Reverse DNS)
+  - Filter für externe IPs (keine lokalen 127.x, 192.x etc.)
+
+📂 **Weitere Features**
+- Logging in `lookup_log.txt`
+- News Feed über `news.txt` aus dem GitHub-Repo
+- Auto-Updater für `IP-Scout.bat` direkt aus GitHub (Branch `main`)
+
+---
+
+## 🧪 So verwendest du das Tool
+
+1. [ ] Repository klonen oder `IP-Scout.bat` herunterladen  
+2. [ ] Optional: `news.txt` im gleichen Repo pflegen  
+3. [ ] Tool starten mit Doppelklick oder über `cmd`
+4. [ ] Gewünschten Menüpunkt (1–5, 9) wählen
+
+---
+
+## 🔄 Update-Funktion
+
+Der Menüpunkt `[9] Update auf neue Version suchen` vergleicht die aktuelle lokale Version mit der Version im GitHub-Repo:
+
+- Wenn eine neue Version erkannt wird, wird sie automatisch heruntergeladen und installiert
+- Danach erfolgt ein automatischer Neustart des Tools
+- Zusätzlich werden die letzten Änderungen aus `news.txt` angezeigt
+
+---
+
+## 📜 Rechtlicher Hinweis
+
+> Dieses Tool dient ausschließlich zu Bildungs-, Analyse- und Testzwecken.  
+> Die Nutzung für böswillige, ausspähende, strafbare oder sicherheitskritische Zwecke – wie das Ermitteln fremder IP-Adressen ohne Zustimmung, Netzwerkangriffe, DoS/DDoS, oder gezielte Nachverfolgung – ist ausdrücklich untersagt.  
+> Der Entwickler übernimmt keinerlei Haftung für missbräuchliche oder gesetzeswidrige Verwendung.
+
+---
+
+## 💡 Mitwirken oder Anfragen?
+
+Fragen, Vorschläge oder Erweiterungswünsche?  
+Gerne via [Issues](https://github.com/lin067/ipscout/issues) oder Pull Request.
+
+---
+
+**Autor:** [lin067](https://github.com/lin067)  
